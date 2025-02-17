@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Character</title>
+  <style>
+    body{
+  background-color: aqua
+}
+.body{
+  width: 200px;
+  height: 250px;
+  background-color: #009f9f;
+  border-radius: 100%;
+  position: absolute;
+  left: 200px;
+  right: auto;
+  top:50px;
+  transform: rotate(30deg);
+}
+.head{
+  width: 200px;
+  height: 158px;
+  background-color: #abdf10;
+  border-radius: 100%;
+  position: absolute;
+  left: 138px;
+  right: auto;
+  top:109px;
+ transform: rotate(50deg);
+}
+#cut1{
+   width: 500px;
+  height: 160px;
+  background-color: aqua;
+  border-radius: 0%;
+  position: absolute;
+  left: 100px;
+  right: auto;
+  top:70px;
+  transform: rotate(30deg);
+}
+.wing{
+   width: 160px;
+  height:50px;
+  border-bottom: 70px solid #abdf10;
+  border-radius: 100%;
+  position: absolute;
+  left: 205px;
+  right: auto;
+  top:130px;
+  transform: rotate(8deg);
+}
+.beak{
+  width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 0 25px 36px 25px;
+   border-color: transparent transparent #000000 transparent;
+   position: absolute;
+   left: 120px;
+   right: auto;
+   top:160px;
+   transform: rotate(30deg);
+}
+.eye{
+  width: 12px;
+  height: 12px;
+  background-color: #000000;
+  border-radius: 100%;
+  position: absolute;
+  left: 160px;
+  right: auto;
+  top:150px;
+ transform: rotate(50deg);
+}
+.tail{
+  width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 0 30px 200px 30px;
+   border-color: transparent transparent #009f9f transparent;
+   position: absolute;
+   left: 315px;
+   right: auto;
+   top:175px;
+   transform: rotate(-50deg);
+}
+.leg1{
+   width: 70px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 235px;
+  right: auto;
+  top:305px;
+  transform: rotate(103deg);
+}
+.toe1{
+   width: 20px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 240px;
+  right: auto;
+  top:340px;
+  transform: rotate(-5deg);
+}
+.toe2{
+   width: 20px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 245px;
+  right: auto;
+  top:345px;
+  transform: rotate(-50deg);
+}
+.toe3{
+   width: 20px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 260px;
+  right: auto;
+  top:340px;
+  transform: rotate(10deg);
+}
+.leg2{
+   width: 70px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 205px;
+  right: auto;
+  top:305px;
+  transform: rotate(103deg);
+  z-index:-1;
+}
+.toe4{
+   width: 20px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 215px;
+  right: auto;
+  top:340px;
+  transform: rotate(-5deg);
+}
+.toe5{
+   width: 20px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 215px;
+  right: auto;
+  top:345px;
+  transform: rotate(-50deg);
+}
+.toe6{
+   width: 20px;
+  height: 0px;
+  background-color: transparent;
+  border-radius: 22%;
+  border: black solid 3.5px;
+  position: absolute;
+  left: 240px;
+  right: auto;
+  top:340px;
+  transform: rotate(10deg);
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    position: absolute;
+    top: 400px;
+    color: darkred;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Edison Estrada</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="interests.html">Interests</a></li>
+                        <li class="active"><a href="character.html">Character</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipes
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="recipe.html">Recipe 1</a></li>
+                              <li><a href="recipe2.html">Recipe 2</a></li>
+                              <li><a href="recipe3.html">Recipe 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+    <div class="tail"></div>
+  <div class="head"> </div>
+  <div class="body"> </div>
+  <div id="cut1"> </div>
+  <div class="wing"></div>
+  <div id="cut2"></div>
+  <div class="beak"></div>
+  <div class="beak"></div>
+  <div class="eye"></div>
+  <div class="leg1"></div>
+  <div class="toe1"></div>
+  <div class="toe2"></div>
+  <div class="toe3"></div>
+  <div class="leg2"></div>
+  <div class="toe4"></div>
+  <div class="toe5"></div>
+  <div class="toe6"></div>
+  <p>Happy New Year!</p>
+</body>
+</html>
