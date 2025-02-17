@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A personal webpage for Edison Estrada featuring projects and recipes.">
+    <meta name="author" content="Edison Estrada">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .jumbotron {
+            background-color: #f8f8f8;
+            padding: 40px;
+            text-align: center;
+        }
+        .jumbotron .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .jumbotron img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px; 
+        }
+
+        .carousel-inner > .item > img {
+            width: 100%;
+            height: auto;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: white;
+            padding: 10px;
+        }
+
+        .carousel-caption h3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .carousel-caption p {
+            font-size: 18px;
+        }
+
+        .content-box {
+            border: 2px solid #000;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+        }
+
+        footer .socials {
+            margin-top: 10px;
+        }
+
+        footer .socials a {
+            font-size: 18px;
+            margin: 5px;
+        }
+
+        footer .socials img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body class="bg-success">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Edison Estrada</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="interests.html">Interests</a></li>
+                            <li><a href="character.html">Character</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="academics.html">Academics</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipes
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="recipe.html">Recipe 1</a></li>
+                                  <li><a href="recipe2.html">Recipe 2</a></li>
+                                  <li><a href="recipe3.html">Recipe 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JUMBOTRON -->
+    <div class="container-fluid" style="margin-top: 80px;">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="col-md-5">
+                    <img src="Indexmedia/yearbook.jpg" alt="Edison Estrada Graduation Photo" class="img-responsive">
+                </div>
+
+                <div class="col-md-7 text-left">
+                    <h2><strong>Edison Estrada</strong></h2>
+                    <br>
+                    <h3><b>Bio</b></h3>
+                    <p>Hello! I'm Edison and I am currently attending Lane Tech College Prep as a Freshman. I like to play baseball, listening to music, and I enjoy hanging out with my freinds. I am in a stem program and plan to major in Engineering.   </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Academics and Interests Sections -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 content-box bg-primary">
+            <h3><b><a href="academics.html" style="color: white;">Academics</a></b></h3>
+            <p>I graduated from the Taft Academic Center and am currently a freshman attending Lane Tech. I am also a part of the Alpha STEM Program and participated in the 2025 Alpha Science Fair.</p>
+            <table style="border-collapse: collapse; width: 100%; text-align: center;">
+                <tr>
+                    <th style="border: 1px solid #000;">Period #</th>
+                    <th style="border: 1px solid #000;">Start Time</th>
+                    <th style="border: 1px solid #000;">End Time</th>
+                    <th style="border: 1px solid #000;">Room #</th>
+                    <th style="border: 1px solid #000;">Subject</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">1</td>
+                    <td style="border: 1px solid #000;">8:00</td>
+                    <td style="border: 1px solid #000;">8:50</td>
+                    <td style="border: 1px solid #000;">125</td>
+                    <td style="border: 1px solid #000;">HS1 Chemistry HH</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">2</td>
+                    <td style="border: 1px solid #000;">8:55</td>
+                    <td style="border: 1px solid #000;">9:45</td>
+                    <td style="border: 1px solid #000;">214</td>
+                    <td style="border: 1px solid #000;">HS1 English II</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">3</td>
+                    <td style="border: 1px solid #000;">9:50</td>
+                    <td style="border: 1px solid #000;">10:40</td>
+                    <td style="border: 1px solid #000;">LR</td>
+                    <td style="border: 1px solid #000;">Student Meal</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">4</td>
+                    <td style="border: 1px solid #000;">10:45</td>
+                    <td style="border: 1px solid #000;">11:35</td>
+                    <td style="border: 1px solid #000;">235</td>
+                    <td style="border: 1px solid #000;">HS1 Web Dev. 1: HTML Client Script</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">5</td>
+                    <td style="border: 1px solid #000;">11:40</td>
+                    <td style="border: 1px solid #000;">12:30</td>
+                    <td style="border: 1px solid #000;">324</td>
+                    <td style="border: 1px solid #000;">HS1 Spanish III</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">6</td>
+                    <td style="border: 1px solid #000;">12:35</td>
+                    <td style="border: 1px solid #000;">1:25</td>
+                    <td style="border: 1px solid #000;">345</td>
+                    <td style="border: 1px solid #000;">HS1 Adv. Algebra w/Trig. HH</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">7</td>
+                    <td style="border: 1px solid #000;">1:30</td>
+                    <td style="border: 1px solid #000;">2:20</td>
+                    <td style="border: 1px solid #000;">210</td>
+                    <td style="border: 1px solid #000;">RS1 PE I. Health</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #000;">8</td>
+                    <td style="border: 1px solid #000;">2:25</td>
+                    <td style="border: 1px solid #000;">3:15</td>
+                    <td style="border: 1px solid #000;">302</td>
+                    <td style="border: 1px solid #000;">AS1 AP Human Geography</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="border: 1px solid #000; font-weight: bold;">DIVISION A854</td>
+                    <td style="border: 1px solid #000;">428</td>
+                    <td style="border: 1px solid #000; font-weight: bold;">Doll, David</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-6 content-box bg-primary">
+            <h3><b><a href="interests.html" style="color: white;">Interests and Hobbies</a></b></h3>
+            <p>In addition to my studies, I spend time at the gym and enjoy playing baseball. Music is a big part of my life, and I like listening to it while I work out or go about my day at school.</p>
+            <img src="https://d29fhpw069ctt2.cloudfront.net/clipart/86063/preview/stylephones2_preview_a332.png" alt="headphones" height="230" width="230">
+            <img src="https://cdn.creazilla.com/cliparts/14581/baseball-sports-clipart-xl.png" alt="baseball" height="230" width="230">
+        </div>
+    </div>
+</div>
+
+    <!-- Carousel Section -->
+    <div class="container" style="margin-bottom: 80px;">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2><b>My Projects</b></h2>
+            </div>
+        </div>
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+        
+                <div class="item active">
+                    <img src="Indexmedia/recipe.png" alt="Recipe" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Recipe 3</h3>
+                        <p>My fried chicken recipe that uses bootstrap.</p>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <img src="Indexmedia/character.png" alt="My Character" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>My Css Character</h3>
+                        <p>The character I made using only css.</p>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img src="Indexmedia/table.png" alt="Table" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Table Practice</h3>
+                        <p>A complex set of tables I created.</p>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p> &copy;2025 Edison Estrada</p>
+        <p>Web Development</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/facebook" target="_blank"><img src="https://cdn.creazilla.com/icons/7911986/facebook-icon-lg.png" alt="facebook logo"></a>
+            <a href="https://twitter.com/twitter" target="_blank"><img src="https://www.shareicon.net/download/2017/01/24/875988_media_512x512.png" alt="twitter logo"></a>
+            <a href="https://www.instagram.com/instagram" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0P9FkyvBtAJ81EPTRcrSbTN1qp6kY9GFYelnZ4iUcQHIyth0j:https://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png&s" alt="instagram logo"></a>
+        </div>
+    </footer>
+</body>
+</html>
