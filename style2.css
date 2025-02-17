@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #b3e0ff;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin-right: 30px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+    transform: translateY(-3px);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    width: 70%;
+}
+
+.boxed-section {
+    background-color: #b3e0ff;
+    padding: 20px;
+    border: 2px solid #80b3ff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#steps h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#steps img, #steps video {
+    max-width: 80%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+#steps img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#steps video {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.float-end {
+    float: right;
+    margin-left: 15px;
+}
+
+aside {
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #80b3ff;
+    border-radius: 8px;
+}
+
+aside h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    article, aside {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h3 {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .boxed-section {
+        width: 100%;
+    }
+
+    #steps img, #steps video {
+        max-width: 100%;
+    }
+}
+
+.smaller-img {
+    max-width: 50%; 
+    height: auto;
+}

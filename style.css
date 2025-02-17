@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffefef;
+    color: #333;
+}
+
+header {
+    background-color: #f28d8d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header h3 {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #f28dbd;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff9f9;
+    transform: translateY(-3px);
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+article {
+    width: 70%;
+}
+
+.boxed-section {
+    background-color: #ffe6e6;
+    padding: 20px;
+    border: 2px solid #f28d8d; 
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+}
+#steps h3 {
+    font-size: 1.2em;  
+    margin-bottom: 15px;
+}
+#steps ol {
+    margin-left: 20px;
+}
+
+#steps img {
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#steps video {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+aside {
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #f28d8d;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #f28d8d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f28d8d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    article, aside {
+        width: 100%;
+    }
+}
